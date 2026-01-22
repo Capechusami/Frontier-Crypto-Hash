@@ -1,59 +1,56 @@
-# 🔐 RSA Asymmetric Encryption Implementation
+# 🔐 Cybersecurity SHA-256 Hashing Implementation
 
 ## 🚀 Project Overview
 
-This project provides a **clear, practical, and fully functional** Python implementation of RSA asymmetric encryption. It was developed as part of a **Cybersecurity Practical Application assignment (Question 3 – Asymmetric Encryption, 12 Marks)** and demonstrates the complete lifecycle of public-key cryptography — from key generation to secure message encryption and decryption.
+This project delivers a **clean, practical, and educational** Python implementation of the SHA-256 cryptographic hashing algorithm. It was developed as part of a **Cybersecurity Practical Application assignment (Question 2 – Hashing, 8 Marks)** and is designed to clearly demonstrate real-world hashing concepts such as **data integrity, security, and the avalanche effect**.
 
-This repository is ideal for students, beginners, and anyone looking to understand how modern encryption systems protect sensitive data.
+Whether you're a student, beginner, or cybersecurity enthusiast, this project provides a hands-on way to understand how modern cryptographic hash functions work under the hood.
 
 ---
 
 ## 🎯 Learning Objectives
 
-By working with this project, you will:
+By exploring this project, you will:
 
-* 🔑 Understand **public-key cryptography** principles
-* 🧮 Implement **RSA key pair generation**
-* 🔐 Encrypt messages using the **public key**
-* 🔓 Decrypt messages using the **private key**
-* ✅ Validate and verify cryptographic operations
+* 🔍 Understand how **SHA-256 hashing** works
+* ⚡ Observe the **avalanche effect** in action
+* 📊 Compare and analyze hash outputs
+* 🛡️ Apply hashing concepts to **data integrity and security** scenarios
 
 ---
 
 ## 🛠️ Technologies Used
 
 * 🐍 **Python 3.6+**
-* 🔐 **pycryptodome** library for cryptographic operations
+* 🔐 Built-in `hashlib` module (no external libraries required)
 
 ---
 
 ## ⚙️ Installation
 
-Choose one of the supported libraries (recommended option below):
-
-### ✅ Option 1: pycryptodome (Recommended)
+No installation required — everything runs using Python’s standard library.
 
 ```bash
-pip install pycryptodome
+# Check your Python version
+python --version
 ```
 
 ---
 
 ## 🚀 Usage
 
-Run the complete RSA implementation:
+Run the complete demonstration script:
 
 ```bash
-# Main implementation using pycryptodome
-python Question_3_(all in one).py
+python hashing_Demo(All in one).py
 ```
 
 The program will:
 
-* Generate RSA public and private keys
-* Encrypt a message using the public key
-* Decrypt the message using the private key
-* Validate the correctness of the cryptographic process
+* Accept input data
+* Generate SHA-256 hashes
+* Show how small changes create completely different outputs
+* Display comparisons for learning and analysis
 
 ---
 
@@ -62,14 +59,13 @@ The program will:
 This repository serves as:
 
 * 📘 A **learning resource** for cybersecurity students
-* 🧪 A **hands-on demonstration** of RSA encryption
-* 📝 A **reference solution** for academic coursework
+* 🧪 A **practical demonstration** of cryptographic hashing
+* 📝 A **reference solution** for academic assignments
 
 ---
 
 ## 🌟 Why This Matters
 
-Asymmetric encryption is at the heart of **secure communications**, powering technologies like **SSL/TLS, digital certificates, secure email, and key exchange protocols**. This project bridges theory and real-world application, making complex cryptographic concepts easy to understand and apply.
+Hashing is a foundational concept in cybersecurity — used in **password storage, digital signatures, blockchain, and data verification**. This project bridges theory and practice, making complex concepts easy to understand and apply.
 
 ---
-
