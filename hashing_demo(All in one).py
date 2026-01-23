@@ -1,8 +1,4 @@
-"""
-CYBERSECURITY ASSIGNMENT - SECTION B
-QUESTION 2: HASHING (8 MARKS)
-Complete Solution - All Parts in One File
-"""
+
 
 import hashlib
 import time
